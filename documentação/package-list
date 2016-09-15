@@ -1,0 +1,11 @@
+br.com.emmanuelneri.monolitica.controller
+br.com.emmanuelneri.monolitica.exception
+br.com.emmanuelneri.monolitica.model
+br.com.emmanuelneri.monolitica.model.enuns
+br.com.emmanuelneri.monolitica.service
+br.com.emmanuelneri.monolitica.util
+br.com.emmanuelneri.monolitica.util.anotations
+br.com.emmanuelneri.monolitica.util.converters
+br.com.emmanuelneri.monolitica.util.producers
+br.com.emmanuelneri.monolitica.vo
+br.com.emmanuelneri.shiro
