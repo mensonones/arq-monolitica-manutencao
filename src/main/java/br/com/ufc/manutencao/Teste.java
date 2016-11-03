@@ -1,11 +1,15 @@
 package br.com.ufc.manutencao;
 
+import static org.junit.Assert.*;
+
+import org.junit.Test;
+
 //Classe de teste para resolver issue
 public class Teste {
-
-	public static void main(String[] args) {
-		// TODO Auto-generated method stub
-		System.out.println("Teste de issue #1");
+	@Test
+	public void testeAdd(){
+		String str= "Junit is working fine";
+	      assertEquals("Junit is working fine",str);
 	}
 
 }
