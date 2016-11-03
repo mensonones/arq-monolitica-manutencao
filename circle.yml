@@ -4,8 +4,7 @@ machine:
 
 test:
   override:
-    - mvn integration-test
-    - cp -R build/reports/tests/* $CIRCLE_ARTIFACTS    
+    - mvn integration-test   
 
 general:
 
