@@ -3,6 +3,13 @@ machine:
     version: oraclejdk8
 
 general:
+
+  artifacts:
+        - "target/monolitica.war"
+
+test:
+    post:
+        - mvn clean install
   branches:
     only:
       - master
