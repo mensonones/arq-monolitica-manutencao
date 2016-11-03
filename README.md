@@ -1,5 +1,6 @@
 [![CircleCI](https://circleci.com/gh/mensonones/arq-monolitica-manutencao/tree/master.svg?style=svg)](https://circleci.com/gh/mensonones/arq-monolitica-manutencao/tree/master)
 
+[![Codacy Badge](https://api.codacy.com/project/badge/Grade/52a65b2b14fd47dbba0bcc9e6402915b)](https://www.codacy.com/app/mensones-1/arq-monolitica-manutencao_2?utm_source=github.com&amp;utm_medium=referral&amp;utm_content=mensonones/arq-monolitica-manutencao&amp;utm_campaign=Badge_Grade)
 
 #Arquitetura
 ![alt tag](https://github.com/emmanuelneri/arquitetura-monolitica/blob/master/arquitetura-monolotica.png)
