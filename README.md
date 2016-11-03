@@ -15,7 +15,7 @@
   - Adicionar jar do Posgres em  modules/system/layers/base/org/postgresql
   - Configurar driver no standalone/configuration/standalone.xml
   
-  ```
+  ```xml
   <datasources>
     <driver name="postgresql" module="org.postgresql">
       <xa-datasource-class>org.postgresql.Driver</xa-datasource-class>
