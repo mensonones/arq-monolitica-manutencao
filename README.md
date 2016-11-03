@@ -26,7 +26,7 @@
 2 - Configurar DataSource no Wildfly
   - Adicionar nova configuração de datasource
   
-  ```
+  ```xml
   <datasources>
      <datasource jta="true" jndi-name="java:jboss/datasources/MonoliticaDS" pool-name="MonoliticaDS" enabled="true" use-java-context="true" use-ccm="true">
       <connection-url>jdbc:postgresql://localhost:5432/monolitica</connection-url>
