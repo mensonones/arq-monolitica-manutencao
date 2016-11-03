@@ -10,6 +10,7 @@ import javax.inject.Named;
 import java.io.Serializable;
 import java.util.List;
 
+//meu controle de usuario
 @Named
 @ViewScoped
 public class UsuarioController implements Serializable {

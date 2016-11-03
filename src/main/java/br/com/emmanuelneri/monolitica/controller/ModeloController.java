@@ -15,6 +15,7 @@ import javax.inject.Named;
 import java.util.Arrays;
 import java.util.List;
 
+//mapeamento de urls relacionadas ao modelo(carro)
 @Named
 @ViewScoped
 @URLMappings(mappings = {

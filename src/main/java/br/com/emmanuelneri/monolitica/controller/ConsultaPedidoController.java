@@ -12,6 +12,7 @@ import javax.inject.Named;
 import java.io.Serializable;
 import java.util.List;
 
+//mapeamento das urls relacionadas a pedidos
 @Named
 @ViewScoped
 @URLMappings(mappings = {

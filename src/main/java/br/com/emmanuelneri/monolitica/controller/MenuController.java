@@ -8,6 +8,7 @@ import javax.enterprise.context.RequestScoped;
 import javax.inject.Inject;
 import javax.inject.Named;
 
+//controle do menu
 @Named
 @RequestScoped
 public class MenuController {

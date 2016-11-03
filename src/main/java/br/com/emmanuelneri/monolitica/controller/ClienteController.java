@@ -12,6 +12,7 @@ import javax.faces.view.ViewScoped;
 import javax.inject.Inject;
 import javax.inject.Named;
 
+//mapeamento das urls relacionadas ao cliente
 @Named
 @ViewScoped
 @URLMappings(mappings = {

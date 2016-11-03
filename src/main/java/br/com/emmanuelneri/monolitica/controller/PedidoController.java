@@ -30,6 +30,7 @@ import java.util.Collections;
 import java.util.List;
 import java.util.Map;
 
+//mapeamento de urls relacionadas a pedidos
 @Named
 @ViewScoped
 @URLMappings(mappings = {
