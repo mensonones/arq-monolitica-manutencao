@@ -1,3 +1,6 @@
+[![CircleCI](https://circleci.com/gh/mensonones/arq-monolitica-manutencao/tree/master.svg?style=svg)](https://circleci.com/gh/mensonones/arq-monolitica-manutencao/tree/master)
+
+
 #Arquitetura
 ![alt tag](https://github.com/emmanuelneri/arquitetura-monolitica/blob/master/arquitetura-monolotica.png)
 
