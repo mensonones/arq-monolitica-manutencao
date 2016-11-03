@@ -9,7 +9,8 @@ general:
 
 test:
     post:
-        - mvn clean install
+        - mkdir -p $CIRCLE_TEST_REPORTS/junit/
+        - find . -type f -regex ".*/target/surefire-reports/.*xml" -exec cp {} $CIRCLE_TEST_REPORTS/junit/ \;
   branches:
     only:
       - master
