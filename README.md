@@ -9,7 +9,7 @@
 - Postgres 9.3+
 - Wildfly 8.0.2.Final
 - Java 8
-
+teste
 # Configurando Projeto
 1 - Adicionar módulo Postgres no Wildfly
   - Adicionar jar do Posgres em  modules/system/layers/base/org/postgresql
