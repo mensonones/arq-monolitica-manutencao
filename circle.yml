@@ -13,10 +13,7 @@ general:
   branches:
       only:
         - master
-        - developer
-deployment:  
-  default:
-    branch: [master, developer]        
+        - developer       
 
   artifacts:
         - "target/monolitica.war"
