@@ -12,6 +12,6 @@ general:
         - "target/monolitica.war"
 
   branches:
-    only:
-      - master
-      - developer
+    ignore:
+      - gh-pages # list of branches to ignore
+      - /release\/.*/ # or ignore regexes
