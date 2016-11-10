@@ -6,6 +6,7 @@ test:
   override:
     - mvn integration-test   
     - mvn checkstyle:checkstyle
+    - mvn findbugs:findbugs
 
 general:
 
