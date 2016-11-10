@@ -13,6 +13,7 @@ general:
   artifacts:
         - "target/monolitica.war"
         - "target/checkstyle-result.xml"
+        - "target/findbugsXml.xml"
 
   branches:
       only:
