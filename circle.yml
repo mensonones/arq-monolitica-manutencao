@@ -12,6 +12,6 @@ general:
         - "target/monolitica.war"
 
   branches:
-    only:
-      - master
-      - developer
+      only:
+        - master
+        - /developer-.*/
