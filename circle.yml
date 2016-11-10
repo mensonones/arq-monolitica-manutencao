@@ -10,13 +10,13 @@ test:
 
 general:
 
- test:
-  branch: developer
-
   branches:
       only:
         - master
         - developer
+deployment:  
+  default:
+    branch: [master, developer]        
 
   artifacts:
         - "target/monolitica.war"
