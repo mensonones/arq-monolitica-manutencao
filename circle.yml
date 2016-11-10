@@ -5,6 +5,7 @@ machine:
 test:
   override:
     - mvn integration-test   
+    - mvn checkstyle:checkstyle
 
 general:
 
@@ -15,4 +16,4 @@ general:
   branches:
       only:
         - master
-        - /developer-.*/
+        - developer
