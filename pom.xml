@@ -182,6 +182,8 @@
             </goals>
             <configuration>
                 <sonar.branch>MyQualityProfile2</sonar.branch>
+                <!-- Produces XML report -->
+                <xmlOutput>true</xmlOutput>
             </configuration>
         </execution>
     </executions>
@@ -229,6 +231,7 @@
           <plugin>
             <groupId>org.codehaus.mojo</groupId>
             <artifactId>findbugs-maven-plugin</artifactId>
+            
           </plugin>
         </reportPlugins>
       </configuration>

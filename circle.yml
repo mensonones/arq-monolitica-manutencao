@@ -7,6 +7,8 @@ test:
     - mvn integration-test   
     - mvn checkstyle:checkstyle
     - mvn findbugs:findbugs
+  post:
+    - cp -R build/reports/tests/* $CIRCLE_ARTIFACTS  
 
 general:
 
