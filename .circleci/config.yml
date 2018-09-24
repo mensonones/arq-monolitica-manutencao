@@ -15,7 +15,7 @@ jobs: # a collection of steps
           key: circleci-demo-java-{{ checksum "pom.xml" }}
       
       - run: mvn dependency:go-offline # gets the project dependencies
-      - run: mvn package 
+      - run: mvn integration-test 
       - run: mvn checkstyle:checkstyle
       - run: mvn findbugs:findbugs
       
@@ -30,6 +30,4 @@ jobs: # a collection of steps
       
       - store_artifacts: # store the uberjar as an artifact
           path: target/monolitica.war
-          path: target/checkstyle-result.xml
-          path: target/findbugsXml.xml
       # See https://circleci.com/docs/2.0/deployment-integrations/ for deploy examples    
