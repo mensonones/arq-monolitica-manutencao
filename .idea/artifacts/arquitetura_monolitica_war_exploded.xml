@@ -8,10 +8,18 @@
         </element>
         <element id="directory" name="lib">
           <element id="library" level="project" name="Maven: org.apache.tomcat.embed:tomcat-embed-core:8.5.16" />
-          <element id="library" level="project" name="Maven: org.apache.tomcat.embed:tomcat-embed-jasper:${tomcat.version}" />
-          <element id="library" level="project" name="Maven: org.apache.tomcat:tomcat-jasper:${tomcat.version}" />
-          <element id="library" level="project" name="Maven: org.apache.tomcat:tomcat-jasper-el:${tomcat.version}" />
-          <element id="library" level="project" name="Maven: org.apache.tomcat:tomcat-jsp-api:${tomcat.version}" />
+          <element id="library" level="project" name="Maven: org.apache.tomcat.embed:tomcat-embed-jasper:8.5.16" />
+          <element id="library" level="project" name="Maven: org.apache.tomcat.embed:tomcat-embed-el:8.5.16" />
+          <element id="library" level="project" name="Maven: org.eclipse.jdt:ecj:3.12.3" />
+          <element id="library" level="project" name="Maven: org.apache.tomcat:tomcat-jasper:8.5.16" />
+          <element id="library" level="project" name="Maven: org.apache.tomcat:tomcat-servlet-api:8.5.16" />
+          <element id="library" level="project" name="Maven: org.apache.tomcat:tomcat-juli:8.5.16" />
+          <element id="library" level="project" name="Maven: org.apache.tomcat:tomcat-el-api:8.5.16" />
+          <element id="library" level="project" name="Maven: org.apache.tomcat:tomcat-api:8.5.16" />
+          <element id="library" level="project" name="Maven: org.apache.tomcat:tomcat-util-scan:8.5.16" />
+          <element id="library" level="project" name="Maven: org.apache.tomcat:tomcat-util:8.5.16" />
+          <element id="library" level="project" name="Maven: org.apache.tomcat:tomcat-jasper-el:8.5.16" />
+          <element id="library" level="project" name="Maven: org.apache.tomcat:tomcat-jsp-api:8.5.16" />
           <element id="library" level="project" name="Maven: org.hibernate.javax.persistence:hibernate-jpa-2.1-api:1.0.0.Final" />
           <element id="library" level="project" name="Maven: org.apache.shiro:shiro-core:1.2.3" />
           <element id="library" level="project" name="Maven: org.slf4j:slf4j-api:1.6.4" />
