@@ -25,6 +25,32 @@
     <dependencies>
 
         <dependency>
+            <groupId>org.apache.tomcat.embed</groupId>
+            <artifactId>tomcat-embed-core</artifactId>
+            <version>8.5.16</version>
+        </dependency>
+        <dependency>
+            <groupId>org.apache.tomcat.embed</groupId>
+            <artifactId>tomcat-embed-jasper</artifactId>
+            <version>${tomcat.version}</version>
+        </dependency>
+        <dependency>
+            <groupId>org.apache.tomcat</groupId>
+            <artifactId>tomcat-jasper</artifactId>
+            <version>${tomcat.version}</version>
+        </dependency>
+        <dependency>
+            <groupId>org.apache.tomcat</groupId>
+            <artifactId>tomcat-jasper-el</artifactId>
+            <version>${tomcat.version}</version>
+        </dependency>
+        <dependency>
+            <groupId>org.apache.tomcat</groupId>
+            <artifactId>tomcat-jsp-api</artifactId>
+            <version>${tomcat.version}</version>
+        </dependency>
+
+        <dependency>
             <groupId>org.jboss.spec.javax.faces</groupId>
             <artifactId>jboss-jsf-api_2.2_spec</artifactId>
             <version>${jsf.version}</version>
@@ -159,38 +185,34 @@
         <finalName>monolitica</finalName>
         <pluginManagement>
             <plugins>
-                <plugin>
-    <groupId>org.codehaus.mojo</groupId>
-    <artifactId>sonar-maven-plugin</artifactId>
-    <executions>
-        <execution>
-            <id>s1</id>
-            <phase>verify</phase>
-            <goals>
-                <goal>sonar</goal>
-            </goals>
-            <configuration>
-                <sonar.branch>MyQualityProfile1</sonar.branch>
-            </configuration>
-        </execution>
-        <execution>
-            <id>s2</id>
-            <phase>install</phase>
-            <goals>
-                <goal>sonar</goal>
-            </goals>
-            <configuration>
-                <sonar.branch>MyQualityProfile2</sonar.branch>
-                <!-- Produces XML report -->
-                <xmlOutput>true</xmlOutput>
-            </configuration>
-        </execution>
-    </executions>
-</plugin>
             </plugins>
         </pluginManagement>
 
         <plugins>
+
+            <plugin>
+                <groupId>org.codehaus.mojo</groupId>
+                <artifactId>appassembler-maven-plugin</artifactId>
+                <version>2.0.0</version>
+                <configuration>
+                    <assembleDirectory>target</assembleDirectory>
+                    <programs>
+                        <program>
+                            <mainClass>launch.Main</mainClass>
+                            <name>webapp</name>
+                        </program>
+                    </programs>
+                </configuration>
+                <executions>
+                    <execution>
+                        <phase>package</phase>
+                        <goals>
+                            <goal>assemble</goal>
+                        </goals>
+                    </execution>
+                </executions>
+            </plugin>
+
             <plugin>
                 <artifactId>maven-compiler-plugin</artifactId>
                 <version>3.1</version>

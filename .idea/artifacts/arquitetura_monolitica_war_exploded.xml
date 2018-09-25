@@ -1,0 +1,49 @@
+<component name="ArtifactManager">
+  <artifact type="exploded-war" name="arquitetura-monolitica:war exploded">
+    <output-path>$PROJECT_DIR$/target/monolitica</output-path>
+    <root id="root">
+      <element id="directory" name="WEB-INF">
+        <element id="directory" name="classes">
+          <element id="module-output" name="arquitetura-monolitica" />
+        </element>
+        <element id="directory" name="lib">
+          <element id="library" level="project" name="Maven: org.apache.tomcat.embed:tomcat-embed-core:8.5.16" />
+          <element id="library" level="project" name="Maven: org.apache.tomcat.embed:tomcat-embed-jasper:${tomcat.version}" />
+          <element id="library" level="project" name="Maven: org.apache.tomcat:tomcat-jasper:${tomcat.version}" />
+          <element id="library" level="project" name="Maven: org.apache.tomcat:tomcat-jasper-el:${tomcat.version}" />
+          <element id="library" level="project" name="Maven: org.apache.tomcat:tomcat-jsp-api:${tomcat.version}" />
+          <element id="library" level="project" name="Maven: org.hibernate.javax.persistence:hibernate-jpa-2.1-api:1.0.0.Final" />
+          <element id="library" level="project" name="Maven: org.apache.shiro:shiro-core:1.2.3" />
+          <element id="library" level="project" name="Maven: org.slf4j:slf4j-api:1.6.4" />
+          <element id="library" level="project" name="Maven: commons-beanutils:commons-beanutils:1.8.3" />
+          <element id="library" level="project" name="Maven: org.apache.shiro:shiro-web:1.2.3" />
+          <element id="library" level="project" name="Maven: javax.validation:validation-api:1.1.0.Final" />
+          <element id="library" level="project" name="Maven: commons-io:commons-io:2.4" />
+          <element id="library" level="project" name="Maven: commons-fileupload:commons-fileupload:1.2.2" />
+          <element id="library" level="project" name="Maven: org.omnifaces:omnifaces:1.8.1" />
+          <element id="library" level="project" name="Maven: org.primefaces:primefaces:5.1" />
+          <element id="library" level="project" name="Maven: org.apache.deltaspike.core:deltaspike-core-api:1.2.1" />
+          <element id="library" level="project" name="Maven: org.apache.deltaspike.core:deltaspike-core-impl:1.2.1" />
+          <element id="library" level="project" name="Maven: com.google.guava:guava:17.0" />
+          <element id="library" level="project" name="Maven: com.auth0:java-jwt:2.0.1" />
+          <element id="library" level="project" name="Maven: org.ocpsoft.rewrite:rewrite-servlet:2.0.12.Final" />
+          <element id="library" level="project" name="Maven: org.ocpsoft.rewrite:rewrite-config-prettyfaces:2.0.12.Final" />
+          <element id="library" level="project" name="Maven: org.ocpsoft.rewrite:rewrite-annotations-impl:2.0.12.Final" />
+          <element id="library" level="project" name="Maven: org.ocpsoft.rewrite:rewrite-api:2.0.12.Final" />
+          <element id="library" level="project" name="Maven: org.ocpsoft.common:common-api:1.0.5.Final" />
+          <element id="library" level="project" name="Maven: org.ocpsoft.logging:logging-api:1.0.2.Final" />
+          <element id="library" level="project" name="Maven: org.ocpsoft.rewrite:rewrite-api-servlet:2.0.12.Final" />
+          <element id="library" level="project" name="Maven: org.ocpsoft.rewrite:rewrite-addressbuilder:2.0.12.Final" />
+          <element id="library" level="project" name="Maven: org.ocpsoft.rewrite:rewrite-annotations-api:2.0.12.Final" />
+          <element id="library" level="project" name="Maven: org.ocpsoft.rewrite:rewrite-integration-faces:2.0.12.Final" />
+          <element id="library" level="project" name="Maven: org.ocpsoft.rewrite:rewrite-integration-cdi:2.0.12.Final" />
+          <element id="library" level="project" name="Maven: junit:junit:4.8.1" />
+        </element>
+      </element>
+      <element id="directory" name="META-INF">
+        <element id="file-copy" path="$PROJECT_DIR$/target/monolitica/META-INF/MANIFEST.MF" />
+      </element>
+      <element id="javaee-facet-resources" facet="arquitetura-monolitica/web/Web" />
+    </root>
+  </artifact>
+</component>
