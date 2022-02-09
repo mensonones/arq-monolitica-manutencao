@@ -11,7 +11,7 @@
 
 
     <properties>
-        <hibernate.version>4.3.8.Final</hibernate.version>
+        <hibernate.version>5.4.24.Final</hibernate.version>
         <cdi.version>1.1</cdi.version>
         <jsf.version>2.2.6</jsf.version>
         <primefaces.version>5.1</primefaces.version>
